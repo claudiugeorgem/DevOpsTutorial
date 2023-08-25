@@ -1,4 +1,4 @@
-#include "gmock/gmock.h"
+﻿#include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include <Rectangle.hpp>
 
@@ -11,7 +11,7 @@ TEST(testRectangle, testRectanglePermiter)
 
 TEST(testRectangle, testRectangleArea)
 {
-    const size_t expectedArea = 50U;
+    const size_t expectedArea = 60U;
     const Rectangle r1(5U, 10U);
     EXPECT_EQ(r1.calculateArea(), expectedArea);
 }
